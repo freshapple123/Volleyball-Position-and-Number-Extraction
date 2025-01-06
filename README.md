@@ -1,10 +1,17 @@
 
-1. 영상의 각도, 거리, 경기장 코트 규격에 따라 코트의 위치가 달라지므로, 시스템 시작 전에 코트의 끝점을 클릭하여 저장하고 디스플레이합니다.
-![image](https://github.com/user-attachments/assets/69e17c0d-8e1f-442c-8d2c-aa343d8a2751)
-![image](https://github.com/user-attachments/assets/1f8cef7a-cbf8-4a66-9a8e-2e25bb1985da)
-⦁ 코트의 디스플레이는 영상(경기) 진행 중에도 유지되며, 서브 시 코트 안의 선수 발 위치를 판별하는 데 사용됩니다.
+1. **영상의 각도, 거리, 경기장 코트 규격에 따라 코트의 위치가 달라지므로**,  
+시스템 시작 전에 **코트의 끝점을 클릭하여 저장하고 디스플레이**합니다.
 
-2. AI 기술을 활용하여 YOLO11 모델을 통해 사람을 인식하고, 바운딩 박스와 Pose를 검출합니다.
+![image](https://github.com/user-attachments/assets/69e17c0d-8e1f-442c-8d2c-aa343d8a2751)
+
+![image](https://github.com/user-attachments/assets/1f8cef7a-cbf8-4a66-9a8e-2e25bb1985da)
+
+⦁ **코트의 디스플레이**는 영상(경기) 진행 중에도 유지되며, **서브** 시 **코트 안의 선수 발 위치**를 판별하는 데 사용됩니다.
+
+---
+
+2. AI 기술을 활용하여 **YOLO11 모델**을 통해 사람을 인식하고, **바운딩 박스**와 **Pose**를 검출합니다.
+
 ![image](https://github.com/user-attachments/assets/37ae584c-5153-4918-bb19-1f23c87fa8f5)
 
 3. 이후 인식된 코트 안의 선수를 분리합니다.
