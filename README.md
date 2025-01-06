@@ -1,5 +1,4 @@
 
-[동영상 보기](https://github.com/freshapple123/Volleyball-Position-and-Number-Extraction/blob/main/demo.mp4)
 
 
 1. **영상의 각도, 거리, 경기장 코트 규격에 따라 코트의 위치가 달라지므로**,  
